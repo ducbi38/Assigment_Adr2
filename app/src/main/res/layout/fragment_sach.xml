@@ -1,0 +1,201 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="8dp">
+
+    <!-- Item 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="8dp">
+
+        <!-- Mã sách -->
+        <TextView
+            android:id="@+id/tvMaSach1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã sách: 1"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Tên sách -->
+        <TextView
+            android:id="@+id/tvTenSach1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sách: Lập trình Java nâng cao"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Giá thuê -->
+        <TextView
+            android:id="@+id/tvGiaThue1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá thuê: 2000"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Loại sách -->
+        <TextView
+            android:id="@+id/tvLoaiSach1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loại sách: Lập trình Java"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+        <!-- Nút xóa ở góc phải -->
+        <ImageView
+            android:id="@+id/btnDelete1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:src="@drawable/baseline_delete_24"
+            android:contentDescription="Xóa sách"
+            android:layout_marginTop="-32dp"
+            android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+
+    <!-- Item 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="8dp">
+
+        <!-- Mã sách -->
+        <TextView
+            android:id="@+id/tvMaSach2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã sách: 2"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Tên sách -->
+        <TextView
+            android:id="@+id/tvTenSach2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sách: Lập trình mạng với Java"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Giá thuê -->
+        <TextView
+            android:id="@+id/tvGiaThue2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá thuê: 2000"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Loại sách -->
+        <TextView
+            android:id="@+id/tvLoaiSach2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loại sách: Lập trình Java"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+        <!-- Nút xóa ở góc phải -->
+        <ImageView
+            android:id="@+id/btnDelete2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:src="@drawable/baseline_delete_24"
+            android:contentDescription="Xóa sách"
+            android:tint="#FF0000"
+            android:layout_marginTop="-32dp"
+            android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+
+    <!-- Item 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="8dp">
+
+        <!-- Mã sách -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã sách: 3"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Tên sách -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sách: Lập trình desktop với Swing"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Giá thuê -->
+        <TextView
+            android:id="@+id/tvGiaThue3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá thuê: 2000"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Loại sách -->
+        <TextView
+            android:id="@+id/tvLoaiSach3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loại sách: Lập trình cơ bản"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+        <!-- Nút xóa ở góc phải -->
+        <ImageView
+            android:id="@+id/btnDelete3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:src="@drawable/baseline_delete_24"
+            android:contentDescription="Xóa sách"
+            android:tint="#FF0000"
+            android:layout_marginTop="-32dp"
+            android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/baseline_add_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:id="@+id/btn_add"
+        />
+</LinearLayout>

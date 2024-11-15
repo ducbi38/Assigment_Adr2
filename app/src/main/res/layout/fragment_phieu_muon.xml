@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragment.PhieuMuonFragment">
+
+    <!-- Item 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tvMaPhieu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã phiếu: 1"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvThanhVien1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thành viên: Trần Tuấn Công"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvTenSach1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sách: Lập trình Java cơ bản"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvGiaThue1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá thuê: 2000"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvNgayThue1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày thuê: 07/07/2021"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvTrangThai1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã trả sách"
+            android:textSize="14sp"
+            android:textColor="#0000FF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnEdit2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/baseline_edit_24"
+                android:contentDescription="Chỉnh sửa"
+                android:layout_marginEnd="8dp" />
+
+            <ImageView
+                android:id="@+id/btnDelete2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/baseline_delete_24"
+                android:contentDescription="Xóa sách" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Item 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tvMaPhieu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã phiếu: 2"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvThanhVien2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thành viên: Lý Ngọc Sang"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvTenSach2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sách: Lập trình Java nâng cao"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvGiaThue2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá thuê: 2500"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvNgayThue2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày thuê: 08/07/2021"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvTrangThai2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã trả sách"
+            android:textSize="14sp"
+            android:textColor="#0000FF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnEdit22"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/baseline_edit_24"
+                android:contentDescription="Chỉnh sửa"
+                android:layout_marginEnd="8dp" />
+
+            <ImageView
+                android:id="@+id/btnDelete22"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/baseline_delete_24"
+                android:contentDescription="Xóa sách" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Item 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tvMaPhieu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã phiếu: 3"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvThanhVien3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thành viên: Nguyễn Đình Thi"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvTenSach3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sách: Lập trình mạng với Java"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvGiaThue3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá thuê: 3000"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvNgayThue3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày thuê: 09/07/2021"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvTrangThai3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chưa trả sách"
+            android:textSize="14sp"
+            android:textColor="#FF0000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnEdit24"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/baseline_edit_24"
+                android:contentDescription="Chỉnh sửa"
+                android:layout_marginEnd="8dp" />
+
+            <ImageView
+                android:id="@+id/btnDelete24"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/baseline_delete_24"
+                android:contentDescription="Xóa sách" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/baseline_add_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:id="@+id/btn_add"
+        />
+
+</LinearLayout>

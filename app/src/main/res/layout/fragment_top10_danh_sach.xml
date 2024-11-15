@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.Top10DanhSachFragment">
+
+    <!-- Item 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:id="@+id/tvTenSach1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sách: Dự án với WindowForm"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/tvSoLuong1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số lượng: 7"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+    </LinearLayout>
+
+    <!-- Item 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:id="@+id/tvTenSach2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sách: Cơ sở dữ liệu SQL Server"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/tvSoLuong2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số lượng: 7"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+    </LinearLayout>
+
+    <!-- Item 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:id="@+id/tvTenSach3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sách: Lập trình JDBC"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/tvSoLuong3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số lượng: 7"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+    </LinearLayout>
+
+    <!-- Item 4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:id="@+id/tvTenSach4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sách: Lập trình cơ sở dữ liệu Hibernate"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/tvSoLuong4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số lượng: 7"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DbHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "Library.db";
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 3;
 
     public DbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -60,7 +60,6 @@ public class DbHelper extends SQLiteOpenHelper {
         // Insert sample data into thuthu
         db.execSQL("INSERT INTO thuthu (MaTT,HoTen, MatKhau) VALUES ('Thuthu001','Nguyễn Văn A', '12345');");
         db.execSQL("INSERT INTO thuthu (MaTT,HoTen, MatKhau) VALUES ('Thuthu002','Trần Thị B', '67890');");
-        db.execSQL("INSERT INTO thuthu (MaTT,HoTen, MatKhau) VALUES ('Thuthu003','Duy Le', '111111');");
 
         // Insert sample data into thanhvien
         db.execSQL("INSERT INTO thanhvien (HoTen, NamSinh) VALUES ('Lê Văn C', 1990);");

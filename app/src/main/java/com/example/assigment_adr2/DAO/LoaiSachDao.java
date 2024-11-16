@@ -27,9 +27,10 @@ public class LoaiSachDao {
 
     public int update(LoaiSach loaiSach) {
         ContentValues values = new ContentValues();
-        values.put("TenSach", loaiSach.getTenSach());
-        return db.update("loaisach", values, "MaLoai=?", new String[]{loaiSach.getMaLoai()});
+        values.put("tenLoai", loaiSach.getTenSach());
+        return db.update("LoaiSach", values, "maLoai = ?", new String[]{loaiSach.getMaLoai()});
     }
+
 
     public int delete(String maLoai) {
         return db.delete("loaisach", "MaLoai=?", new String[]{maLoai});

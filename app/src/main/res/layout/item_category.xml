@@ -42,11 +42,14 @@
         <!-- Nút chỉnh sửa -->
         <ImageView
             android:id="@+id/img_edit"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:src="@drawable/baseline_edit_24"
-            android:padding="4dp" />
+            android:contentDescription="Sửa loại sách"
+            android:padding="4dp"
+            android:layout_marginEnd="8dp"
+            android:background="?attr/selectableItemBackground" />
+
 
         <!-- Nút xóa -->
         <ImageView

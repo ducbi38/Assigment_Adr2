@@ -29,7 +29,6 @@ public class LoaiSachFragment extends Fragment {
     List<LoaiSach> listloaisach;
     LoaiSachAdapter loaiSachAdapter;
     public LoaiSachFragment() {
-        // Required empty public constructor
     }
 
 
@@ -68,7 +67,7 @@ public class LoaiSachFragment extends Fragment {
         View dialogView = LayoutInflater.from(getContext()).inflate(R.layout.dialog_edit_ma_loai, null);
         builder.setView(dialogView);
 
-        EditText etTenLoai = dialogView.findViewById(R.id.etMaLoai);
+        EditText etTenLoai = dialogView.findViewById(R.id.etEditLoaiSach);
 
 
         builder.setPositiveButton("Thêm", (dialog, which) -> {
